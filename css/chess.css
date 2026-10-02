@@ -1,0 +1,25 @@
+      /* transforma os divs em quadrados */
+      .square {
+          width: 100px;
+          height: 100px;
+          box-sizing: border-box;
+          border: 1px solid black;
+      }
+
+      /* faz todos os quadrados ímpares de cor vermelha */
+      .square:nth-child(odd) {
+          background-color: red;
+      }
+      
+      /* faz todos os quadrados pares de cor preta */
+      .square:nth-child(even) {
+          background-color: black;
+      }
+
+      /* estiliza o tabuleiro */
+      #board {
+          display: flex;
+          margin: 0 auto;
+          width: 500px;
+          flex-wrap: wrap;
+      }
