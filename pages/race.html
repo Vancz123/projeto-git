@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Race Registration</title>
+</head>
+
+<body>
+
+    <h1>Race Registration!</h1>
+
+    <form action="" method="post">
+        <!-- Primeira linha: Nome e Apelido -->
+        <p>
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first_name">
+
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last_name">
+        </p>
+
+        <!-- Seleção da corrida (Radio buttons) -->
+        <p>Select a Race:</p>
+        <div>
+            <input type="radio" id="fun-run" name="race" value="fun_run">
+            <label for="fun-run">Fun Run 5k</label>
+        </div>
+        <div>
+            <input type="radio" id="half-marathon" name="race" value="half_marathon">
+            <label for="half-marathon">Half Marathon</label>
+        </div>
+        <div>
+            <input type="radio" id="full-marathon" name="race" value="full_marathon" checked>
+            <label for="full-marathon">Full Marathon</label>
+        </div>
+
+        <!-- Linha: Email e Password -->
+        <p>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        </p>
+
+        <!-- Seleção do grupo de idade -->
+        <p>
+            <label for="age-group">Select Age Group</label>
+            <select id="age-group" name="age_group">
+                <option value="under_18">under 18</option>
+                <option value="18_35">18-35</option>
+                <option value="36_50">36-50</option>
+                <option value="50_plus">50+</option>
+            </select>
+        </p>
+
+        <!-- Botão de submissão -->
+        <button type="submit">Register!</button>
+    </form>
+
+    <a href="../index.html">Go back Home</a>
+</body>
+
+</html>

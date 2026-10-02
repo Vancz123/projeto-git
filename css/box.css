@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+}
+
+#two {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: blue;
+}
+
+/* Fixed position - o elemento fica posicionado em relação à janela do navegador, mesmo quando a página vai sendo carregada. */
+
+#three {
+  position: static;
+  top: 20px;
+  left: 20px;
+  background: red;
+}
+
+/* static position - o elemento fica posicionado em relação ao fluxo normal da página. */

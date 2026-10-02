@@ -1,0 +1,15 @@
+.card {
+
+    width: 210px;
+    border: 1px gray solid;
+    text-align: center;
+    margin: 20px 
+}
+
+img {
+    width: 200px;
+    height: 210px;
+    border: 5px solid rgb(236, 183, 191);
+    border-radius: 50%;
+    background: rgb(236, 183, 191);
+}
